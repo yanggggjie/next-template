@@ -6,7 +6,10 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+    //    更好地支持ES6的导入导出
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    //    更好地支持ES6的导入导出
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
