@@ -7,7 +7,7 @@ export default function Page({}: Props) {
     <div>
       <h1>Hello Next.js</h1>
       <p className={'a'}>haahh</p>
-      <p>Let's explore different ways to style Next.js apps</p>
+      <p>Let s explore different ways to style Next.js apps</p>
       <style jsx>{`
         .a {
           color: ${color};
