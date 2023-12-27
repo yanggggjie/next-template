@@ -1,8 +1,8 @@
 {
-  "plugins": ["@tanstack/query"],
+  "plugins": [
+  ],
   "extends": [
-    "next/core-web-vitals",
-    "plugin:@tanstack/eslint-plugin-query/recommended"
+    "next/core-web-vitals"
   ],
   "rules": {
     // 宽松的配置
