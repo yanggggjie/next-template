@@ -1,13 +1,15 @@
-'use client'
-import RankList from '@/components/RankList'
+import getTime from '@/server-actions/getTime'
 
 interface Props {}
 
-export default function Page({}: Props) {
+export default async function Page({}: Props) {
+  const res = await getTime()
   return (
     <div>
-      in server
-      <RankList></RankList>
+      <div>
+        in server
+        <div>{JSON.stringify(res)}</div>
+      </div>
     </div>
   )
 }
